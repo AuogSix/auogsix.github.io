@@ -1,0 +1,238 @@
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>About Auog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AyagawaSeirin/homepage@latest/mdui/css/mdui.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/webfont/onlinewebfonts.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AyagawaSeirin/homepage@latest/assets/css/index.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_1625701_q2422cy34wn.css">
+    <link rel="icon" href="./images/logo.png">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <link href="http://cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/Icomoon/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/jquery-2.0.2.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script>
+        console.log("\n %c Made with love %c by AyagawaSeirin | qwq.best ","color:#444;background:#eee;padding:5px 0;","color:#F8F8FF;background:#F4A7B9;padding:5px 0;");
+        $(window).load(function() {
+        $("#loading").fadeOut(500);
+         }) 
+    </script>
+    <style>
+#loading{
+  background-color: #383838;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  margin-top: 0px;
+  top: 0px;
+}               
+#loading-center{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#loading-center-absolute {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 200px;
+  width: 200px;
+  margin-top: -100px;
+  margin-left: -100px;
+}    
+#object{
+  width: 80px;
+  height: 80px;
+  background-color: #FFF;
+  -webkit-animation: animate 1s infinite ease-in-out;
+  animation: animate 1s infinite ease-in-out;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 60px;
+}
+@-webkit-keyframes animate {
+  0% { -webkit-transform: perspective(160px); }
+  50% { -webkit-transform: perspective(160px) rotateY(-180deg); }
+  100% { -webkit-transform: perspective(160px) rotateY(-180deg) rotateX(-180deg); }
+}
+  
+@keyframes animate {
+  0% { 
+    transform: perspective(160px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(160px) rotateX(0deg) rotateY(0deg); 
+  } 50% { 
+    transform: perspective(160px) rotateX(-180deg) rotateY(0deg);
+    -webkit-transform: perspective(160px) rotateX(-180deg) rotateY(0deg) ;
+  } 100% { 
+    transform: perspective(160px) rotateX(-180deg) rotateY(-180deg);
+    -webkit-transform: perspective(160px) rotateX(-180deg) rotateY(-180deg);
+  }
+}
+
+img{
+    width: 110px;
+    border-radius:10%;
+      }
+    </style>
+</head>
+<body class="mdui-theme-primary-pink mdui-theme-accent-pink">
+
+<div id="loading">
+  <div id="loading-center">
+    <div id="loading-center-absolute">
+      <div id="object"></div>
+    </div>
+  </div>
+</div>  
+
+<div id="rin-bg"></div>
+<main id="rin-main">
+    <div class="mdui-row">
+        <div class="mdui-col-xs-12 mdui-col-md-2">
+            <div class="rin-left">
+                <div>
+                    <img src="./images/tx.png">
+                </div>
+                <div class="rin-left-title">A&nbsp;U&nbsp;O&nbsp;G</div>
+                <div class="rin-left-title2">From China</div>
+                <div class="rin-left-slogan">「Tomorrow everything will be fine.」</div>
+
+                <a class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue rin-btn-left mdui-text-capitalize" href="#"><span class="icon-home"></span> Index</a>
+
+                <a class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue rin-btn-left mdui-text-capitalize" href="./about.html"><span class="iconfont iconabout"></span> About</a>
+            </div>
+        </div>
+        <div class="mdui-col-xs-12 mdui-col-md-10">
+            <div class="mdui-card rin-card">
+            <div class="rin-card-title2 mdui-typo"><a href="#fighting">#</a> 关于我</div>
+                <div class="rin-card-part" id="introduce" style="margin-top: 0;">
+                    <div class="rin-card-content mdui-typo">你好，这里是Auog，普通学生一枚~<br>
+                        坐标山东临沂，啥也不会<br>
+                        How lucky to meet you!<br>
+                    </div>
+                </div>
+                <!--        <div class="rin-tr"></div>-->
+                <div class="rin-card-part" id="fighting">
+                    <div class="rin-card-title2 mdui-typo"><a href="#fighting">#</a> 战斗力</div>
+                    <div class="mdui-container">
+                        <div class="mdui-row">
+                            <div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4"
+                                 mdui-tooltip="{content: '只会一点点(bushi'}">
+                                <div class="rin-progress-title">
+                                    HTML+CSS
+                                </div>
+                                <div class="mdui-progress">
+                                    <div class="mdui-progress-determinate" style="width: 65%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4"
+                                 mdui-tooltip="{content: '我的世界资深老玩家'}">
+                                <div class="rin-progress-title">
+                                    Minecraft
+                                </div>
+                                <div class="mdui-progress">
+                                    <div class="mdui-progress-determinate" style="width: 100%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4"
+                                 mdui-tooltip="{content: '让事情发生的能力doge'}">
+                                <div class="rin-progress-title">
+                                    搞事情
+                                </div>
+                                <div class="mdui-progress">
+                                    <div class="mdui-progress-determinate" style="width: 35%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4"
+                                 mdui-tooltip="{content: '社交能力<del>(社恐</del>'}">
+                                <div class="rin-progress-title">
+                                    社交
+                                </div>
+                                <div class="mdui-progress">
+                                    <div class="mdui-progress-determinate" style="width: 65%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4"
+                                 mdui-tooltip="{content: '我的耐心可是有限哒！'}">
+                                <div class="rin-progress-title">
+                                    耐心
+                                </div>
+                                <div class="mdui-progress">
+                                    <div class="mdui-progress-determinate" style="width: 30%;"></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="rin-card-part" id="contact">
+                    <div class="rin-card-title2 mdui-typo"><a href="#contact">#</a> 咱生活的地方</div>
+
+                    <a class="mdui-btn mdui-btn-raised rin-btn mdui-color-blue-accent mdui-text-capitalize mdui-shadow-8 mdui-ripple"
+                       href="https://twitter.com/AuogSix" target="_blank"><span
+                            class="iconfont icontwitter-fill"></span> Twitter</a>
+
+                    <a class="mdui-btn mdui-btn-raised rin-btn mdui-color-grey-900 mdui-text-capitalize mdui-shadow-8 mdui-ripple" href="https://github.com" target="_blank"><span class="iconfont icongithub"></span> Github</a>
+
+                    <a class="mdui-btn mdui-btn-raised rin-btn mdui-color-pink-a200 mdui-text-capitalize mdui-shadow-8 mdui-ripple" href="https://space.bilibili.com/507121130" target="_blank"><span class="iconfont iconbilibili"></span> Bilibili</a>
+
+                    <a class="mdui-btn mdui-btn-raised rin-btn mdui-color-blue-700 mdui-text-capitalize mdui-shadow-8 mdui-ripple"
+                       href="mailto:auogsix@outlook.com" target="_blank"><span
+                            class="iconfont iconmail_fill"></span> Mail</a>
+
+                    <a class="mdui-btn mdui-btn-raised rin-btn mdui-color-green mdui-text-capitalize mdui-shadow-8 mdui-ripple"
+                       href="https://klpbbs.com/?18715" target="_blank"><span
+                            class="iconfont i_minecraft_sign"></span> Klpbbs</a>
+
+                </div>
+
+                <div class="rin-card-part" id="article">
+                    <div class="rin-card-title2 mdui-typo"><a href="#movie">#</a> 视频</div>
+
+                    <a target="_blank" href="https://www.bilibili.com/video/BV1tP4y1c7Rp?share_source=copy_web">
+                        <div class="mdui-card rin-card rin-card-article" style="margin-bottom: 10px;">
+                            <div class="rin-article-title">免费搭建您的博客，论坛，个人网站！</div>
+                            <div class="rin-article-content">视频源:BiliBili 作者:Auog 日期:2022-2-27</div>
+                        </div>
+                        </a>
+
+                    <a target="_blank" href="https://www.bilibili.com/video/BV1NP4y1t7eb?share_source=copy_web">
+                    <div class="mdui-card rin-card rin-card-article" style="margin-bottom: 10px;">
+                        <div class="rin-article-title">我的世界1×1纹理包</div>
+                        <div class="rin-article-content">视频源:BiliBili 作者:Auog 日期:2021-7-25</div>
+                    </div>
+                    </a>
+                    </div>
+                </div>
+
+
+                <div class="rin-tr"></div>
+
+                <div class="rin-card-part" id="last">
+                    <div class="rin-card-title2">AuogSix</div>
+                    <div class="rin-card-content">欢迎大家访问我的网站QWQ</div>
+                </div>
+
+                <div class="rin-card-part" id="footer">
+                    <div class="rin-card-content">© 2022 By Auog</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<script src="https://cdn.jsdelivr.net/gh/AyagawaSeirin/homepage@latest/mdui/js/mdui.min.js"></script>
+<!--<script src="https://cdn.jsdelivr.net/gh/AyagawaSeirin/homepage@latest/assets/js/main.js"></script>-->
+</body>
+</html>
