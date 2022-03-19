@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AyagawaSeirin/homepage@latest/assets/css/index.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" href="https://at.alicdn.com/t/font_1625701_q2422cy34wn.css">
-    <link rel="icon" href="./images/logo.png">
+    <link rel="icon" href="./img/logo.png"><!--标题图标-->
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/default.css">
     <link href="http://cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
@@ -17,12 +17,15 @@
     <script type="text/javascript" src="js/jquery-2.0.2.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <script>
+        /*不知道干嘛用的*/
         console.log("\n %c Made with love %c by AyagawaSeirin | qwq.best ","color:#444;background:#eee;padding:5px 0;","color:#F8F8FF;background:#F4A7B9;padding:5px 0;");
+        /*加载等待秒数*/
         $(window).load(function() {
         $("#loading").fadeOut(500);
          }) 
     </script>
     <style>
+    /*加载样式*/
 #loading{
   background-color: #383838;
   height: 100%;
@@ -74,8 +77,8 @@
     -webkit-transform: perspective(160px) rotateX(-180deg) rotateY(-180deg);
   }
 }
-
-img{
+/*圆角图片*/
+.circle{
     width: 110px;
     border-radius:10%;
       }
@@ -83,6 +86,7 @@ img{
 </head>
 <body class="mdui-theme-primary-pink mdui-theme-accent-pink">
 
+<!--加载样式--> 
 <div id="loading">
   <div id="loading-center">
     <div id="loading-center-absolute">
@@ -97,15 +101,15 @@ img{
         <div class="mdui-col-xs-12 mdui-col-md-2">
             <div class="rin-left">
                 <div>
-                    <img src="./images/tx.png">
+                    <img class="circle" src="./img/tx.png"><!--头像-->
                 </div>
                 <div class="rin-left-title">A&nbsp;U&nbsp;O&nbsp;G</div>
                 <div class="rin-left-title2">From China</div>
                 <div class="rin-left-slogan">「Tomorrow everything will be fine.」</div>
 
-                <a class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue rin-btn-left mdui-text-capitalize" href="#"><span class="icon-home"></span> Index</a>
+                <a class="mdui-btn mdui-btn-raised mdui-color-grey-900 rin-btn-left mdui-text-capitalize" href="#"><span class="icon-home"></span> Index</a>
 
-                <a class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue rin-btn-left mdui-text-capitalize" href="./about.html"><span class="iconfont iconabout"></span> About</a>
+                <a class="mdui-btn mdui-btn-raised mdui-color-grey-900 rin-btn-left mdui-text-capitalize" href="./about.html"><span class="iconfont iconabout"></span> About</a>
             </div>
         </div>
         <div class="mdui-col-xs-12 mdui-col-md-10">
@@ -153,17 +157,7 @@ img{
                             </div>
 
                             <div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4"
-                                 mdui-tooltip="{content: '社交能力<del>(社恐</del>'}">
-                                <div class="rin-progress-title">
-                                    社交
-                                </div>
-                                <div class="mdui-progress">
-                                    <div class="mdui-progress-determinate" style="width: 65%;"></div>
-                                </div>
-                            </div>
-
-                            <div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4"
-                                 mdui-tooltip="{content: '我的耐心可是有限哒！'}">
+                                 mdui-tooltip="{content: '<del>我的耐心可是有限哒！</del>'}">
                                 <div class="rin-progress-title">
                                     耐心
                                 </div>
@@ -184,7 +178,7 @@ img{
                        href="https://twitter.com/AuogSix" target="_blank"><span
                             class="iconfont icontwitter-fill"></span> Twitter</a>
 
-                    <a class="mdui-btn mdui-btn-raised rin-btn mdui-color-grey-900 mdui-text-capitalize mdui-shadow-8 mdui-ripple" href="https://github.com" target="_blank"><span class="iconfont icongithub"></span> Github</a>
+                    <a class="mdui-btn mdui-btn-raised rin-btn mdui-color-grey-900 mdui-text-capitalize mdui-shadow-8 mdui-ripple" href="https://github.com/AuogSix/" target="_blank"><span class="iconfont icongithub"></span> Github</a>
 
                     <a class="mdui-btn mdui-btn-raised rin-btn mdui-color-pink-a200 mdui-text-capitalize mdui-shadow-8 mdui-ripple" href="https://space.bilibili.com/507121130" target="_blank"><span class="iconfont iconbilibili"></span> Bilibili</a>
 
